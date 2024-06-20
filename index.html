@@ -1,41 +1,338 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalDynamos</title>
+    <title>Digital Dynamos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!-- Encabezado -->
+    <div class="barra-anuncio">
+        <div class="barra-anuncio-contenido container">
+            <div class="info-contenido">
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +51 999 999 999
+                </p>
+                <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    info@gmail.com
+                </p>
+            </div>
+            <div class="redes-sociales">
+                <a href="#" class="boton-red-social">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="boton-red-social">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="boton-red-social">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
     <header>
-        <div class="container">
-            <h1>DigitalDynamos</h1>
-            <h2>Pagina de Inicio</h2>
-            <!-- Barra de menú -->
+        <div class="container seccion-logo">
+            <img src="img/logodigital.svg" alt="DigitalDynamos">
             <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+                <a href="#incio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#planes">Planes</a>
+                <a href="#contacto">Contacto</a>
             </nav>
+
+            <div class="container-actions">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <button>
+                    <i class="fa-solid fa-user"></i>
+                </button>
+            </div>
         </div>
     </header>
-
-    <!-- Cuerpo de la página -->
-    <main>
-        <section>
-            <div class="container">
-                <h2>¡Bienvenido a nuestro servicio de marketing!</h2>
-                <img src="Imagenes/campaña_marketing.jpg" alt="Campaña de Marketing" width="300">
+    <section id="inicio" class="section-hero container">
+        <div class="info">
+            <h2>Agencia de Marketing Digital</h2>
+            <h3><span>MÉTELE TURBO A TU EMPRESA</span></h3>
+            <p>
+                Impulsa el crecimiento de tu empresa desde hoy con el 
+                respaldo de nuestros especialistas. Somos pioneros en el 
+                ámbito del marketing digital, diseñando estrategias que 
+                garantizan resultados óptimos. Contamos con servicios 
+                integrales que incluyen análisis profundo, planificación 
+                estratégica, campañas publicitarias y todo lo esencial para tu 
+                negocio o startup.
+            </p>
+            <div class="botones-container">
+                <button>
+                    Descúbrelo
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
             </div>
-        </section>
-    </main>
+        </div>
+        <div class="imagen-hero">
+            <div class="img-hero">
+                <img src="img/hero-1.svg" alt="Header Img">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="servicios" class="section-info container">
+            <div class="info-serv">
+                <div class="text-info">
+                    <p>
+                    Descubre hoy el futuro de los servicios y 
+                    las nuevas tecnologías que potenciarán el 
+                    crecimiento de tu empresa. 
+                    </p>
+                </div>
+                <div class="obs-info">
+                    <p>
+                        <span>Primero Analizamos El Panorama</span><br>
+                        Escuchamos y comprendemos tus necesidades, transformándolas 
+                        en objetivos y metas. Luego, analizamos el mercado para identificar 
+                        oportunidades genuinas.
+                    </p>
+                    <p>
+                        <span>Luego Planteamos Alternativas</span><br>
+                        Con la información disponible, nuestra agencia de marketing digital 
+                        crea estrategias únicas y efectivas, centradas en lograr tus objetivos
+                        de manera ágil.
+                    </p>
+                    <p>
+                        <span>Finalmente Ejecutamos, Medimos Y Corregimos</span><br>
+                        Nuestros expertos en marketing digital implementarán el plan y 
+                        recopilarán feedback continuo para ajustar la estrategia, corregir 
+                        desviaciones y alcanzar tus objetivos definitivamente.
+                    </p>
+                </div>
+                <div class="container-boton-accion">
+                    <button>
+                        REGISTRATE AHORA
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-tec container">
+            <div class="tec-info">
+                <p>
+                    Nuestros servicios de Marketing Digital
+                </p>
+                <button>
+                    Más información
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+                </button>
+            </div>
+            <div class="tec-caract">
+                <div class="trnsf-seg">
+                    <img src="img/Item1.svg" alt="Item1">
+                    <p>
+                        <span>DESARROLLO WEB</span><br>
+                        Creamamos páginas web en WordPress adaptadas a 
+                        las necesidades de tu negocio: corporativas o e-commerce.
+                    </p>
+                </div>
+                <div class="priv">
+                    <img src="img/Item2.svg" alt="Item2">
+                    <p>
+                        <span>MARKETING DE CONTENIDOS</span><br> 
+                        Creamos estrategias de Marketing de Contenidos y gestionamos 
+                        tu blog para mejorar tu posicionamiento orgánico con contenido 
+                        relevante y de calidad.
+                    </p>
+                </div>
+                <div class="estand">
+                    <img src="img/Item3.svg" alt="Item3">
+                    <p>
+                        <span>SOCIAL MEDIA</span><br>
+                        Creamamos y gestionamos los perfiles de redes sociales de 
+                        tu empresa, generando contenido, aumentando el tráfico y 
+                        la interacción para mejorar el posicionamiento. 
+                    </p>
+                </div>
+                <div class="prslzd-atencion">
+                    <img src="img/Item4.svg" alt="Item4">
+                    <p>
+                        <span>E-MAIL MARKETING</span><br>
+                        Gestionamos tus bases de datos, diseñamos campañas y 
+                        hacemos envíos de E-mail Marketing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="planes" class="section-plan container">
+        <h2>Planes</h2>
+        <p>
+            Impulsamos el crecimiento de tu negocio con planes personalizados de 
+            marketing digital que mejoran tu presencia en línea, SEO y gestión en 
+            redes sociales, garantizando resultados efectivos y rápidos. 
+        </p>
+        
+        <div class="container-card-plan">
+            <div class="card-plan">
+                <div class="header-card">
+                    <span>
+                        <h3>Basico</h3>
+                        <p class="price">$15</p>
+                    </span>
+                </div>
+                <p class="description">
+                    - 1 Cuenta<br>
+                    - Analisis de datos<br>
+                    - 2 Dominios<br>
+                    - Publicar fotos<br>
+                    - Publicar vídeos<br>
+                </p>
+                <button class="btn-buy">SELECCIONAR PLAN</button>
+            </div>
 
-    <!-- Pie de página -->
+            <div class="card-plan">
+                <div class="header-card">
+                    <span>
+                        <h3>Avanzado</h3>
+                        <p class="price">$35</p>
+                    </span>
+                </div>
+                <p class="description">
+                    - Todo el plan Básico<br>
+                    - 10 dominios<br>
+                    - 5 cuentas<br>
+                    - Atención personalizada<br>
+                    - Feedback mensual<br>
+                    - Destaca tus contenidos<br>
+                    - Acceso ilimitado<br>
+                    
+                </p>
+                <button class="btn-buy">SELECCIONAR PLAN</button>
+            </div>
+
+            <div class="card-plan">
+                <div class="header-card">
+                    <span>
+                        <h3>Perzonalizado</h3>
+                        <p class="price">$60</p>
+                    </span>
+                </div>
+                <p class="description">
+                    - Todas las características de los planes anteriores 
+                    además de las características personalizadas que necesites. <br> 
+                    - Se realizará un presupuesto ajustado a las necesidades 
+                    de tu negocio. 
+                </p>
+                <button class="btn-buy">SELECCIONAR PLAN</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="contacto" class="contac-form container">
+            <div class="info-form">
+                <h2>Contáctenos</h2>
+                <p>
+                    Impulsamos tu negocio con soluciones personalizadas de marketing 
+                    digital para aumentar tu presencia en línea y ventas. Contacta con 
+                    nosotros hoy para empezar a crecer digitalmente.
+                </p>
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    +51 999 999 999
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                    info@gmail.com
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    Ciudad, Pais
+                </a>
+            </div>
+            <form action="#" autocomplete="off">
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
+                <input type="email" name="email" placeholder="Ingresa tu correo" class="campo">
+                <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+                <button>
+                    Enviar
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
     <footer>
-        <div class="container">
-            <p>Derechos de autor &copy; 2024 | DigitalDynamos</p>
+        <div class="section-footer container">
+            <div class="footer-section-logo">
+                <img src="img/logodigitalblack.svg" alt="footerlogo" class="footer-logo">
+                <div class="redes-sociales">
+                    <a href="#" class="boton-red-social">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="boton-red-social">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="boton-red-social">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#">Contactos</a>
+                        </li>
+                        <li>
+                            <a href="#">Politica de Privacidad</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Servicio al Cliente</h4>
+                    <ul>
+                        <li>
+                            <a href="#">Preguntas Frecuentes</a>
+                        </li>
+                        <li>
+                            <a href="#">Terminos de uso</a>
+                        </li>
+                        <li>
+                            <a href="#">Condiciones de Pedido</a>
+                        </li>
+                        <li>
+                            <a href="#">Metodos de Pago</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column newsletter">
+                    <h4>Suscribite a nuestro boletin</h4>
+
+                    <p>
+                        Disfruta de un 15% de descuento en tus planes
+                        cuando te suscribas a nuestro boletin informativo
+                    </p>
+
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="email">
+                        <button type="submit">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
