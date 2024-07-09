@@ -220,7 +220,7 @@ header .btn-login:hover{
 @media screen and (max-width: 400px) {
     .thumbnail{
         justify-content: start;
-        text-align: center;       
+        text-align: center;
     }
     .slider .list .item .content h2{
         font-size: 60px;
